@@ -9,6 +9,8 @@ header {
     width: 100%;
     margin-bottom: 3%;
     background-color: #f0e6da;
+    position: fixed;
+    margin-top: 0%;
 }
 
 nav {
@@ -43,6 +45,7 @@ main {
     width: 94%;
     margin-left: 3%;
     margin-right: 3%;
+    padding-top: 5%;
 }
 
 h1 {
@@ -219,7 +222,10 @@ main img {
     margin-left: 15%;
     margin-top: 5%;
     margin-bottom: 8%;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    padding-top: 1%;
     background-color: #F3E1DE;
     border-radius: 15px;
     text-align: center;
@@ -231,6 +237,19 @@ main img {
     padding-right: 5%;
     padding-top: 3%;
     padding-bottom: 3%;
+    background-color: #FBF6F0;
+    color: #595045;
+    border: 1% solid #CBB9A6;
+    border-radius: 10px;
+}
+
+
+
+.loginForm input {
+    width: 80%;
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     background-color: #FBF6F0;
     color: #595045;
     border: 1% solid #CBB9A6;
@@ -290,15 +309,24 @@ footer {
     font-size: 100%;
 }
 
-footer img {
-    width: 60%;
-    padding-right: -20%;
-}
 
 .footerSuscripcion{
     padding-top: 3%;
     padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: #FBF6F0;
     color: #595045;
     border-radius: 10px;
+    width: 50%;
+}
+.footerRedes {
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 3%;
+}
+.copyright {
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
 }
