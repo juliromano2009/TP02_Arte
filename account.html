@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi cuenta</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="shop.html">SHOP</a></li>
@@ -20,44 +21,47 @@
     </header> 
     <main>
         <h1>MI CUENTA</h1>
-        <section>
+        <section class="cuentaFT">
             <img src="cuenta.png" alt="">
         </section>
-        <section>
+        <section class="login">
             <h2>Iniciar sesión</h2>
-            <div>
+            <div class="loginForm">
                 <form method="post">
-                    Correo electronico <input type="email" name="email" placeholder="Correo electrónico">
-                    Nombre de usuario <input type="text" name="username" placeholder="Nombre de usuario">
-                    Contraseña <input type="password" name="password" placeholder="Contraseña">
+                    <h3>Correo electrónico</h3>
+                    <input type="email" name="email" placeholder="Correo electrónico">
+                    <h3>Nombre de usuario</h3> 
+                    <input type="text" name="username" placeholder="Nombre de usuario">
+                    <h3>Contraseña</h3>
+                    <input type="password" name="password" placeholder="Contraseña">
                     <button type="submit">Iniciar sesión</button>
                     <button type="reset">Restablecer</button>
                 </form>
             </div>
         </section>
     </main>
-        <footer>
-        <a href="index.html"><img src="logo.png" alt=""></a>
-            <div>
+    <footer>
+            <div class="footerSuscripcion">
                 <p>Suscribite para recibir novedades, lanzamientos y beneficios exclusivos.</p>
                 <form>
-                    <input type="mail" placeholder="Email Adress">
-                    <input type="submit" placeholder="Send">
+                    <input type="email" placeholder="Email Address">
+                    <input type="submit" value="Send">
                 </form>
             </div>
-
-            <div><section class="tituloP">
-            <p>¡Seguinos en nuestras redes!</p>
-            </section>
-            <p>Instagram</p>
-            <p>@satinlume.telas</p>
-            <p>TikTok</p>
-            <p>@satinlume.telas</p>
-            <p>YouTube</p>
-            <p>@satinlume.telas</p>
-            <p>Pinterest</p>
-            <p>@satinlume.telas</p>
-        </div>
+            <div class="footerRedes">
+                <h3>¡Seguinos en nuestras redes!</h3>
+                <p>Instagram</p>
+                <p>@satinlume.telas</p>
+                <p>TikTok</p>
+                <p>@satinlume.telas</p>
+                <p>YouTube</p>
+                <p>@satinlume.telas</p>
+                <p>Pinterest</p>
+                <p>@satinlume.telas</p>
+            </div>
+            <div class="copyright">
+                <p>© 2026 Satin Lume — Innovación, comodidad y diseño.</p>
+            </div>
         </footer>
 </body>
 </html>
